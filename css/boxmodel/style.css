@@ -1,0 +1,33 @@
+.one{
+    background-color: blue;
+    border: 2px solid greenyellow;
+    height: 100px;
+    width: 100px;
+    padding:  25px 25px 25px 25px;
+    margin-bottom: 25px;
+    
+}
+
+.two{
+    background-color: blue;
+    border: 2px solid greenyellow;
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+}
+.para{
+    height: 100px;
+    width: 100px;
+     
+ 
+    
+}
+.circle{
+    background-color:pink;
+    height:250px;
+    width:250px;
+    border:2px solid red;
+    border-radius:50%;
+    background-image:url('image.png');
+   
+}

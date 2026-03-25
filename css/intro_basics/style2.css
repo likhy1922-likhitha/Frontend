@@ -1,0 +1,14 @@
+h1{
+    text-align:center;
+    text-transform: capitalize;
+    /* already by default kept so commented it out  */
+}
+#mainPara{
+    font-family:'Times New Roman';
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size:10px;
+}

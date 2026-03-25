@@ -1,0 +1,32 @@
+#navbar{
+    background-color: rgb(236, 182, 182);
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    
+}
+li{
+    list-style-type: none;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.outer{
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    background-color: pink;
+     border: solid 1px black;
+    height: 90px;
+    width: 90px;
+    align-self: center;
+}
