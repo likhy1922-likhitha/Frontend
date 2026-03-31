@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,4 +91,98 @@
     <footer></footer>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-HtML</title>
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Forms in HTML</h1>
+        <form action="/submit.php">
+            <div>
+                <label for="name">Name</label>
+                <!--note: always for value and in input id  or class value shoudl be same as for value  -->
+                <input type="text" id="name" placeholder="Enter Name: ">
+            </div>
+            <br>
+            <!-- for phone number -->
+            <div>
+                <label for="phone">Phone</label>
+                <!--note: always for value and in input id  or class value shoudl be same as for value  -->
+                <input type="tel" id="phone" placeholder="Enter Phone Number: ">
+            </div>
+            <br>
+            <!-- email id -->
+
+            <div>
+                <label for="emailid">Email</label>
+                <!--note: always for value and in input id  or class value shoudl be same as for value  -->
+                <input type="email" id="emailid" placeholder="Enter EmailId: ">
+            </div>
+            <br>
+            <!-- for password -->
+
+            <div>
+                <label for="password">password</label>
+                <!--note: always for value and in input id  or class value shoudl be same as for value  -->
+                <input type="password" id="password" placeholder="Enter password: " required>
+            </div>
+            <br>
+            <!-- for date /month/year -->
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" placeholder="Enter data: ">
+            </div>
+            <br>
+            <!-- select dropdown -->
+            <div>
+                <label for="gender">Gender</label>
+                <select id="gender" required>
+                    <option value="" disabled selected>selected Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <br>
+            <!-- radio buttons -->
+            <div>
+                <p>Subscription Plan</p>
+                <input type="radio" id="basic" name="Subscription" value="basic">
+                <label for="basic">Basic</label>
+
+                <input type="radio" id="perimum" name="Subscription" value="perimum">
+                <label for="perimum">Premium</label>
+
+                <input type="radio" id="vip" name="Subscription" value="vip">
+                <label for="vip">VIP</label>
+                <!-- when we wanted to select only one particular value  because name is same for everyone-->
+            </div>
+            <br>
+            <!--  for checkbox -->
+            <div>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" required> i agree to the terms and conditions</label>
+
+            </div>
+            <!-- text area for comments -->
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" placeholder="Enter your comments" rows="4"></textarea>
+            </div>
+
+        </form><!-- action is used to tell on which url thiis form is submitted(here is submitted on submit.php) -->
+    </main>
+    <footer></footer>
+</body>
+
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 </html>

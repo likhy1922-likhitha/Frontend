@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     height: 100px;
     width:100px;
@@ -5,4 +6,13 @@ div{
     background-size: cover;
     position: fixed;
     right:0px;
+=======
+div{
+    height: 100px;
+    width:100px;
+    background-image:url("img2.png");
+    background-size: cover;
+    position: fixed;
+    right:0px;
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 }

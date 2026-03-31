@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .outer{
     background-color: yellow;
@@ -55,3 +56,62 @@
     
 }
 
+=======
+
+.outer{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+}
+
+.inner{
+    background-color:darkgoldenrod;
+    height: 200px;
+    width:200px
+}
+
+@media (max-width:300px) {
+    .outer{
+    background-color:green;
+
+}
+.inner{
+    background-color: brown;
+}
+    
+}
+
+@media(min-width:300px) and(max-width:400px){
+    .outer{
+    background-color:pink;
+}
+.inner{
+    background-color: blue;
+}
+
+}
+
+
+@media(min-width:400px) and(max-width:600px){
+    .outer{
+    background-color:red;
+}
+.inner{
+    background-color:blueviolet;
+}
+
+}
+
+
+@media (min-width:600px) {
+    .outer{
+    background-color:blue;
+
+}
+.inner{
+    background-color: pink;
+}
+    
+}
+
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac

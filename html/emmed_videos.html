@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,4 +40,47 @@
     </main>
     <footer></footer>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Embedding </title>
+</head>
+<body>
+    
+    <header></header>
+    <main>
+        <video src="video4.mp4" width="250" preload="auto" autoplay muted controls loop></video>
+         <!--see if you want autoplay teh video but only when the user interacts  with the page for that use the "muted"  -->
+         <!-- if you dont add "controls" attribite you cant control the video like pause replay unmute like this -->
+
+         <!-- some attributes in video are
+         src: for url
+         width:
+         controls:
+         autoplay:
+         loop:causes the video to automatically start over from the begining when it reaches the end
+         preload: specifies whether the load shoudl loaded when teh page loads(Auto,metadata,none)
+         
+         -->
+
+         <video width="264" autoplay loop controls muted>
+            <source src="video4.mp4" type="video/mp4">
+            Your Browser does not support the video tag.
+         </video>
+
+
+         <!-- extracting the videos form youtube -->
+
+        <!-- if you wnat to embed particular frame use the iframe -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/k2DSi1zGEc8?si=tklJPaRmLEZQTFRC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <!-- this iframe direclty got from the yoututbe by clicking teh share tehn embed -->
+          <iframe src="https://youtu.be/k2DSi1zGEc8?si=JAtrECU6D1mDL4b1" frameborder="0"></iframe>
+          <!-- and this manually so thats why it  dont showing the  video -->
+    </main>
+    <footer></footer>
+</body>
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 </html>

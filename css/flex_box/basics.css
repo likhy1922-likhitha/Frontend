@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     text-align: center;
 }
@@ -47,3 +48,54 @@ body{
 
 }
 
+=======
+body{
+    text-align: center;
+}
+#container{
+    border: solid black 2px;
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    display: flex;
+    flex-direction:row; /*by default we have the row no need to particluarly mention*/
+    justify-content:center;
+    /* flex-wrap:wrap; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
+    
+
+}
+.items{
+    height: 50px;
+    width:200px;
+    display: inline-block;
+    border: solid 2px black;
+    
+
+}
+#box1{
+    background-color: blue;
+    height: 90px;
+    /* align-self: flex-end; */
+}
+#box2{
+    background-color: rgb(12, 171, 245);
+    height: 200px;
+    flex-shrink:0;
+
+}
+#box3{
+    background-color: rgb(228, 98, 12);
+    height: 75px;
+}
+#box4{
+    background-color: rgb(207, 16, 137);
+}
+#box5{
+    background-color: rgb(24, 219, 118);
+    
+
+}
+
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac

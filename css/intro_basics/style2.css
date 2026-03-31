@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     text-align:center;
     text-transform: capitalize;
@@ -11,4 +12,19 @@ h1{
 }
 #inner{
     font-size:10px;
+=======
+h1{
+    text-align:center;
+    text-transform: capitalize;
+    /* already by default kept so commented it out  */
+}
+#mainPara{
+    font-family:'Times New Roman';
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size:10px;
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 }

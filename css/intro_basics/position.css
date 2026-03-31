@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box {
     height: 100px;
     width: 100px;
@@ -61,4 +62,69 @@
     fixed postion in the broswer */
 
 
+=======
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#one {
+    background-color: yellow;
+    position: static;
+    
+}
+
+#two {
+    background-color: blue;
+    position: relative;
+    top: 70px;
+    right:30px;
+    z-index:-1;
+    /* but in static we cannot apply the z-index */
+    /* as the text z-index is zero  */
+
+    /* as it is by default position and you cant use the top,bottom,left,right and z-index */
+    /* so here to even goes under the text */
+
+    
+    /* relative to itself */
+
+}
+
+#three {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    /* relative to anscetor tag */
+    /* here the box 4 will be under the box 3 because 
+    now the box3 is removed from the documnet flow but it is moving with the relative of 
+    body tag which is a ancestor(parent tag) */
+
+
+
+}
+
+#four {
+    background-color: hotpink;
+    position: fixed;
+    /* relative to the browser */
+    top: 500px;
+    right: 50px;
+    /* and check once it is fixed in the browser */
+    /* generally used in the nav bar */
+
+}
+
+#five {
+    background-color: grey;
+    position: sticky;
+    /* based on user scroll position and becomes fixed */
+    top: 50px;
+    /* when ot reaches to 50px from top it becomes 
+    fixed postion in the broswer */
+
+
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 }

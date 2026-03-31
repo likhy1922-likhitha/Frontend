@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* *{
     margin:0;
     padding:0;
@@ -66,3 +67,73 @@ space is reserved */
 
 }
 
+=======
+/* *{
+    margin:0;
+    padding:0;
+} */
+
+h2{
+    text-align:center;
+    /* text-decoration: dotted; */
+}
+
+.display{
+    background-color:rgb(61, 197, 197);
+    display:inline;
+}
+.inline{
+    background-color:mediumseagreen;
+    
+}
+.one{
+    background-color:blueviolet;
+    height:100px;
+    width: 100px;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+    /* here the height and width properties also appiled to the inner content
+    if you only write the inline the inner content occupies how much width 
+    it required that it  */
+
+
+}
+.two{
+    background-color: brown;
+    height:100px;
+    width: 100px;
+    margin:25px;
+    padding:25px;
+    display:none;
+    /* if you wamt to remove the html elements from the documnet flow
+    not even the space you dont want for that particular element keep 
+    display: none*/
+}
+.three{
+    background-color:chartreuse ;
+    height:100px;
+    width: 100px;
+    margin:25px;
+    padding:25px;
+    display:inline;
+    
+    
+
+
+}
+
+/* but in visibility is set to hidden the element is hidden but the
+space is reserved */
+.four{
+    background-color:rgb(199, 22, 134) ;
+    height:100px;
+    width: 100px;
+    margin:25px;
+    padding:25px;
+    display:inline;
+    visibility:hidden;
+
+}
+
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
