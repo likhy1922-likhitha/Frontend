@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -393,4 +394,401 @@
     <footer></footer>
     
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelStud.com-Book your travel to Bali</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Special+Elite&display=swap');
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --cream:       #f2e8d5;
+    --cream-dark:  #e0d0b5;
+    --orange:      #d4541a;
+    --orange-dark: #a83d0f;
+    --green:       #4a6741;
+    --green-light: #d4e0c8;
+    --brown:       #3b2a1a;
+    --mustard:     #c9a020;
+    --text:        #2b1d0e;
+    --muted:       #7a5c3a;
+    --border-w:    2.5px;
+    --radius:      0px;
+    --t:           0.2s ease;
+  }
+
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--cream);
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 28px,
+        rgba(59,42,26,0.045) 28px,
+        rgba(59,42,26,0.045) 29px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 28px,
+        rgba(59,42,26,0.025) 28px,
+        rgba(59,42,26,0.025) 29px
+      );
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px 16px;
+    color: var(--text);
+  }
+
+  main {
+    width: 100%;
+    max-width: 680px;
+  }
+
+  /* ── Outer Card ── */
+  main > div {
+    background: var(--cream);
+    border: var(--border-w) solid var(--brown);
+    box-shadow: 6px 6px 0 var(--brown);
+    padding: 40px 36px;
+    position: relative;
+  }
+
+  /* Ticket perforation top strip */
+  main > div::before {
+    content: '';
+    display: block;
+    height: 10px;
+    background: repeating-linear-gradient(
+      90deg,
+      var(--orange) 0px,
+      var(--orange) 18px,
+      var(--mustard) 18px,
+      var(--mustard) 36px,
+      var(--green) 36px,
+      var(--green) 54px,
+      var(--brown) 54px,
+      var(--brown) 72px
+    );
+    margin: -40px -36px 36px -36px;
+  }
+
+  /* ── Page Title ── */
+  main > div > h3 {
+    font-family: 'Special Elite', serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: var(--brown);
+    letter-spacing: 0.04em;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+  }
+
+  main > div > h3 u {
+    text-decoration: none;
+    border-bottom: 3px solid var(--orange);
+    padding-bottom: 3px;
+  }
+
+  /* ── Tab Nav ── */
+  main > div > div:first-of-type {
+    display: flex;
+    gap: 0;
+    margin-bottom: 36px;
+    border: var(--border-w) solid var(--brown);
+    box-shadow: 3px 3px 0 var(--brown);
+  }
+
+  main > div > div:first-of-type a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 11px 10px;
+    border-right: var(--border-w) solid var(--brown);
+    transition: all var(--t);
+  }
+
+  main > div > div:first-of-type a:last-child {
+    border-right: none;
+  }
+
+  main > div > div:first-of-type a:first-child {
+    background: var(--orange);
+    color: var(--cream);
+  }
+
+  main > div > div:first-of-type a:hover:not(:first-child) {
+    background: var(--cream-dark);
+    color: var(--brown);
+  }
+
+  /* ── Form Card ── */
+  main > div > div:last-of-type {
+    background: white;
+    border: var(--border-w) solid var(--brown);
+    box-shadow: 4px 4px 0 var(--brown);
+    padding: 32px;
+  }
+
+  /* ── Section Headings ── */
+  h5 {
+    font-family: 'Special Elite', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--orange);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 2px dashed var(--cream-dark);
+  }
+
+  /* ── Form ── */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  /* ── Labels ── */
+  label {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: -6px;
+    transition: color var(--t);
+  }
+
+  form div:focus-within > label {
+    color: var(--orange);
+  }
+
+  /* ── Inputs & Selects ── */
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 12px 14px;
+    background: var(--cream);
+    border: var(--border-w) solid var(--brown);
+    border-radius: 0;
+    font-family: 'Special Elite', serif;
+    font-size: 0.9rem;
+    color: var(--text);
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    transition: border-color var(--t), box-shadow var(--t), background var(--t);
+    letter-spacing: 0.03em;
+  }
+
+  input::placeholder {
+    color: #b09a7a;
+    font-family: 'Special Elite', serif;
+  }
+
+  input:focus,
+  select:focus {
+    border-color: var(--orange);
+    background: #fffdf7;
+    box-shadow: 3px 3px 0 var(--orange);
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: sepia(1) saturate(3) hue-rotate(-20deg);
+    cursor: pointer;
+  }
+
+  /* ── Select arrow ── */
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23d4541a' stroke-width='2' fill='none' stroke-linecap='square'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 40px;
+    cursor: pointer;
+  }
+
+  select option {
+    background: var(--cream);
+    color: var(--text);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  /* ── Grid layout for paired fields ── */
+  form > div:first-of-type,
+  form > div:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    align-items: end;
+  }
+
+  form > div:nth-of-type(3) h5 {
+    grid-column: 1 / -1;
+  }
+
+  /* ── Passenger label with plane icon ── */
+  form > div:nth-of-type(3) h5::before {
+    content: '✈ ';
+    font-size: 0.85rem;
+    color: var(--mustard);
+  }
+
+  /* ── Divider between sections ── */
+  form > div + div {
+    padding-top: 4px;
+    border-top: 1px dashed var(--cream-dark);
+  }
+
+  form > div:last-of-type {
+    border-top: none;
+  }
+
+  /* ── Buttons ── */
+  form > div:last-of-type {
+    flex-direction: row;
+    gap: 14px;
+    margin-top: 8px;
+  }
+
+  button {
+    flex: 1;
+    padding: 13px 20px;
+    border: var(--border-w) solid var(--brown);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all var(--t);
+    border-radius: 0;
+    position: relative;
+  }
+
+  button:first-child {
+    background: var(--orange);
+    color: var(--cream);
+    box-shadow: 4px 4px 0 var(--brown);
+  }
+
+  button:first-child:hover {
+    background: var(--orange-dark);
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--brown);
+  }
+
+  button:last-child {
+    background: var(--cream);
+    color: var(--brown);
+    box-shadow: 4px 4px 0 var(--brown);
+  }
+
+  button:last-child:hover {
+    background: var(--green-light);
+    color: var(--green);
+    border-color: var(--green);
+    box-shadow: 4px 4px 0 var(--green);
+    transform: translate(-2px, -2px);
+  }
+
+  button:active {
+    transform: translate(0, 0) !important;
+    box-shadow: 2px 2px 0 var(--brown) !important;
+  }
+</style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <!-- form section -->
+        <div>
+            <h3><u>Booking Details</u></h3>
+            <div>
+                <a href="booking.html">Booking Information</a>
+                <a href="genarate.html">Genarte Information</a>
+                <a href="details.html">Booking Details</a>
+            </div>
+            <div>
+                <h5>Contact Details</h5>
+                <form action="">
+                    <div>
+                        <label for="country">Country</label>
+                        <select name="Country" id="code" required>
+                            <option value="" disabled selected >Select the Country</option>
+                            <option value="India">India</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Swizerland">Swizerland</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                        <label for="contactname"></label>
+                        <input type="text" placeholder="contact name">
+                        </div>
+                    <div>
+                        <label for="Email"></label>
+                        <input type="email" placeholder="Email Address">
+                        
+                    </div>
+                    <div>
+                        <h5>Passenger 1</h5>
+                        <label for="title"></label>
+                        <select name="title" id="title">
+                            <option value="" disabled selected>title</option>
+                            <option value=""></option>
+                        </select>
+                        <label for="fname"></label>
+                        <input type="text"  id="fname"placeholder="First Name">
+                        <label for="lname"></label>
+                        <input type="text" id ="lname" placeholder="Last Name">
+                        <label for="dob"></label>
+                        <input type="date" placeholder="Date od Birth">
+                        
+                        <label for="country2"></label>
+                        <select name="Country2" id="code2" required>
+                            <option value="" disabled selected >Select the Country</option>
+                            <option value="India">India</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Swizerland">Swizerland</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button >NEXT</button>
+                        <button>Order Summary</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 </html>

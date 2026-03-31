@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .color{
     background-color:rgba(225,0,0, 0.5)
     /* gives the light red color */
@@ -5,4 +6,13 @@
 .box2{
     background-color:rgba(225,0,0,1);
     /* with full opacity */
+=======
+.color{
+    background-color:rgba(225,0,0, 0.5)
+    /* gives the light red color */
+}
+.box2{
+    background-color:rgba(225,0,0,1);
+    /* with full opacity */
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 }

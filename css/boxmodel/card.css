@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cards{
     border:2px solid black;
     display:flow-root;
@@ -12,4 +13,20 @@ img{
 .card:nth-child(3){
     background-color: yellow;
     clear: left;
+=======
+.cards{
+    border:2px solid black;
+    display:flow-root;
+}
+.card{
+    border:2px solid red;
+}
+
+img{
+    float:left;
+}
+.card:nth-child(3){
+    background-color: yellow;
+    clear: left;
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 }

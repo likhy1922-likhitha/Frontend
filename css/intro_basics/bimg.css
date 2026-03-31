@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* this nav bar */
 * {
     padding: 0;
@@ -70,4 +71,78 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+=======
+/* this nav bar */
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+#navBar {
+    background-color: black;
+    height: 60px;
+}
+
+button {
+    color: white;
+    background-color: rgb(222, 158, 9);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 250px;
+}
+
+#logo {
+    color: rgb(222, 158, 9);
+    font-size: 25px;
+}
+
+
+
+
+/* this main */
+main{
+    height:630px;
+}
+#one {
+    background-image: url("img1.png") ;
+    background-size: cover;
+    /* complete image wont come but no empty spaces */   
+}
+
+#two {
+    background-image: url("img2.png") ;
+    background-size: contain; 
+    /* complete image will come so if incase the image is hort then 
+    image reptions will come */
+    /* if you dont want repate set repate to no repate but empty space will come */
+    background-repeat: no-repeat;
+}
+
+#three {
+    background-image: url("img1.png") ;
+    background-size: auto;
+    /* bydefault we have the auto only  */
+    /* enlarges the image */
+
+}
+/* but mostly we use the cover */
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    border:2px solid black;
+    display: inline-block;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+>>>>>>> 82a027a298deea976ef090d118d88b0e49b19eac
 }
